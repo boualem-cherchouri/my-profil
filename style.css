@@ -1,0 +1,102 @@
+
+body{
+	text-align: center;
+	background: grey;
+	background-color: rgb(230, 230, 230);
+	color : rgb(30, 30 , 30);
+	font-family: 'Hind', sans-serif;
+	font size : 16px;
+
+}
+
+h1, h2 { 
+	font-family:  'Baloo Thambi 2', cursive;
+	color : #4c6f50 ;
+ }
+
+h2 {
+	text-justify : center;
+	font-size:  : 24px;
+	font-weight: 900; 
+}
+
+
+
+h1 {
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+
+
+a{
+	text-decoration: none;
+	color : #4d4c6f;
+	font-weight: bold;
+}
+a:hover {
+	color : grey;
+}
+
+#structure {
+width: 700px;
+margin: 40px auto;
+
+}
+
+.div1 {
+    background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    
+}
+
+#moi {
+	width: : 200px;
+	height: 200px;
+	border-radius: 100%;
+ }
+
+
+.listinline {
+	list-style: none;
+
+
+}
+
+.listinline li{
+	display: inline;
+
+}
+.listinline i{
+	font-size: 35px;
+
+}
+
+.container { 
+	width: 550px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
